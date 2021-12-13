@@ -1,9 +1,14 @@
 # Установка
 $ sudo apt install software-properties-common
+
 $ sudo apt-add-repository ppa:ansible/ansible
+
 $ sudo apt-get update
+
 $ sudo apt install ansible -y
+
 $ sudo apt install python3-pip -y
+
 $ ansible-galaxy install elastic.elasticsearch,v7.16.0
 
 # Запуск
